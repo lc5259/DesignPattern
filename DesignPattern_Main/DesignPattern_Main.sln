@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern_Main", "DesignPattern_Main\DesignPattern_Main.csproj", "{EAE34723-D5DC-4174-921B-F4EC519936DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "装饰模式", "装饰模式", "{1CAA1F0C-6D74-4557-A46A-61F299B1FF9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "装饰模式\DecoratorPattern\DecoratorPattern.csproj", "{69553533-537A-49E1-ADB6-1AE493F1285A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAE34723-D5DC-4174-921B-F4EC519936DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE34723-D5DC-4174-921B-F4EC519936DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE34723-D5DC-4174-921B-F4EC519936DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE34723-D5DC-4174-921B-F4EC519936DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69553533-537A-49E1-ADB6-1AE493F1285A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69553533-537A-49E1-ADB6-1AE493F1285A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69553533-537A-49E1-ADB6-1AE493F1285A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69553533-537A-49E1-ADB6-1AE493F1285A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69553533-537A-49E1-ADB6-1AE493F1285A} = {1CAA1F0C-6D74-4557-A46A-61F299B1FF9A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AA6422E-9EEC-4886-BF9E-AA303627AFF5}
+	EndGlobalSection
+EndGlobal
